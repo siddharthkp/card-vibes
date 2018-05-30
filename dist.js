@@ -235,7 +235,8 @@ var Card = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', _extends({ 'data-tilt': true, style: cardStyles }, this.props));
+      var styles = Object.assign({}, cardStyles, this.props.style);
+      return _react2.default.createElement('div', _extends({ 'data-tilt': true, style: styles }, this.props));
     }
   }]);
 

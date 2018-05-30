@@ -246,7 +246,8 @@ class Card extends React.Component {
     VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
   }
   render() {
-    return <div data-tilt style={cardStyles} {...this.props} />
+    const styles = Object.assign({}, cardStyles, this.props.style)
+    return <div data-tilt style={styles} {...this.props} />
   }
 }
 
