@@ -53,7 +53,7 @@ import Card from 'card-vibes'
 
 #### kudos to @micku7zu and @gijsroge
 
-This is a React wrapper around modified code (to lock config and add shadows) of [vanilla-tilt](https://github.com/micku7zu/vanilla-tilt.js) by [@micku7zu](https://github.com/micku7zu)
+This is a React wrapper with modified code (to lock config and add shadows) based on [vanilla-tilt](https://github.com/micku7zu/vanilla-tilt.js) by [@micku7zu](https://github.com/micku7zu)
 
 &nbsp;
 
