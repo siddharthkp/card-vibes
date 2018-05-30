@@ -7,7 +7,7 @@
 
 &nbsp;
 
-card-vibes is a beautiful card component that moves with grace on hover
+`card-vibes` is a beautiful card component that moves with grace on hover. [Here's a demo on codesandbox](https://codesandbox.io/s/j1wkozzmv3)
 
 &nbsp;
 
