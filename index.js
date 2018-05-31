@@ -242,12 +242,18 @@ const cardStyles = {
 }
 
 class Card extends React.Component {
-  componentDidMount() {
-    VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
+  constructor(props) {
+    super(props)
+    this.tiltRef = React.createRef();
   }
+  
+  componentDidMount() {
+    VanillaTilt.init(this.tiltRef.current)
+  }
+  
   render() {
     const styles = Object.assign({}, cardStyles, this.props.style)
-    return <div data-tilt style={styles} {...this.props} />
+    return <div ref={this.tiltRef} style={styles} {...this.props} />
   }
 }
 
