@@ -221,22 +221,25 @@ var cardStyles = {
 var Card = function (_React$Component) {
   _inherits(Card, _React$Component);
 
-  function Card() {
+  function Card(props) {
     _classCallCheck(this, Card);
 
-    return _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).apply(this, arguments));
+    var _this2 = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this, props));
+
+    _this2.tiltRef = _react2.default.createRef();
+    return _this2;
   }
 
   _createClass(Card, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      VanillaTilt.init(document.querySelectorAll('[data-tilt]'));
+      VanillaTilt.init(this.tiltRef.current);
     }
   }, {
     key: 'render',
     value: function render() {
       var styles = Object.assign({}, cardStyles, this.props.style);
-      return _react2.default.createElement('div', _extends({ 'data-tilt': true, style: styles }, this.props));
+      return _react2.default.createElement('div', _extends({ ref: this.tiltRef, style: styles }, this.props));
     }
   }]);
 

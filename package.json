@@ -6,8 +6,15 @@
   "scripts": {
     "build": "babel index.js -o dist.js"
   },
-  "files": ["dist.js"],
-  "keywords": ["react", "card", "good", "vibes"],
+  "files": [
+    "dist.js"
+  ],
+  "keywords": [
+    "react",
+    "card",
+    "good",
+    "vibes"
+  ],
   "author": "siddharthkp",
   "license": "MIT",
   "devDependencies": {
