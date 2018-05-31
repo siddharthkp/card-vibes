@@ -53,7 +53,9 @@ import Card from 'card-vibes'
 
 #### Related projects
 
-- [react-vanilla-tilt](https://github.com/siddharthkp/react-vanilla-tilt)
+- [react-vanilla-tilt](https://github.com/siddharthkp/react-vanilla-tilt): A more version of Tilt component
+
+  Thanks to
 - [vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) by [@micku7zu](https://github.com/micku7zu)
 - [tilt.js](https://github.com/gijsroge/tilt.js) by [@gijsroge](https://github.com/gijsroge)
 
