@@ -37,13 +37,13 @@ import Card from 'card-vibes'
 
 #### custom styles
 
-card-vibes does come with it's own styles that give it such good vibes, you can overwrite them by adding your own `className` or `styles` tag
+card-vibes does come with it's own styles that give it such good vibes, you can overwrite them by adding your own `className` or `style` tag
 
 ```jsx
 import React from 'react'
 import Card from 'card-vibes'
 
-<Card styles={{ width: '600px', padding: '20px' }}>
+<Card style={{ width: '600px', padding: '20px' }}>
   You can put whatever you want inside the card
   and it will look dope
 </Card>
