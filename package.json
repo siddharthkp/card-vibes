@@ -1,6 +1,6 @@
 {
   "name": "card-vibes",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "The card component with good vibes",
   "main": "dist.js",
   "scripts": {
